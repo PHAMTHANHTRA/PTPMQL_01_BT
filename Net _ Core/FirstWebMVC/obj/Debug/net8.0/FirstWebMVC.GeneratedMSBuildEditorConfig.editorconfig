@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Dell\Downloads\PTPMQL_01\Net _ Core\FirstWebMVC
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Dell/Downloads/PTPMQL_01/Net _ Core/FirstWebMVC/Views/HelloWord/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JkXGluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Dell/Downloads/PTPMQL_01/Net _ Core/FirstWebMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
