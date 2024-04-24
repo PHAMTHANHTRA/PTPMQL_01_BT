@@ -1,13 +1,14 @@
 using Microsoft.EntityFrameworkCore;
 using MvcMovie.Models;
-
-namespace MVC.Data
+namespace DemoMVC.Data
 {
-        public class ApplicationDbContext : DbContext
-        {
-                public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
-                { }
-                public DbSet<SinhVien> SinhVien { get; set; }
-                public DbSet<Book> Book { get; set; }
-        }
+   // khai báo việc ánh xạ class Person vào trong database
+ 
+    public class ApplicationDbContext : DbContext
+    {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        {}
+        public DbSet<Person> Person { get; set;}
+        //public DbSet<DemoMVC.Models.Employee> Employee { get; set; } = default!;
+    }
 }
