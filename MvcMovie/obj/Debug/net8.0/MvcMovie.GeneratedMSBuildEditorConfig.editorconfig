@@ -18,12 +18,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Dell\Downloads\PTPMQL_01\MvcMovie
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/HelloWorld/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Person/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Shared/Error.cshtml]
