@@ -1,8 +1,52 @@
-<h1>Dữ liệu từ Controller gửi về là: @ViewBag.infoPerson</h1>
-<form asp-action="Index">
-    <label>Nhập PersonID</label>
-    <input type="text" name="PersonId">
-    <label>Nhập họ và tên:</label>
-    <input type="text" name="FullName">
-    <label>Nhập địa chỉ:</label>
-</form> <input type="submit" name="Gửi dữ liệu">
+@model IEnumerable<DemoMVC.Models.Person>
+
+@{
+  ViewData["Title"] = "Index";
+  Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+<h1 class="container teal">Index</h1>
+
+<p>
+  <a asp-action="Create" class="button black container margin">Create New</a>
+</p>
+<hr>
+<form action="Index">
+  <input type="text" name="timKiem">
+  <input type="submit" value="Search">
+</form>
+<hr>
+<table class="table">
+  <thead class="border">
+    <tr>
+      <th>
+        @Html.DisplayNameFor(model => model.FullName)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.Address)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model=>model.Age)
+      </th>
+    </tr>
+  </thead>
+  <tbody class="border">
+    @foreach (var item in Model) {
+      <tr>
+        <td>
+          @Html.DisplayFor(modelItem => item.FullName)
+        </td>
+        <td>
+          @Html.DisplayFor(modleItem => item.Address)
+        </td>
+        <td>
+          @Html.DisplayFor(modleItem => item.Age)
+        </td>
+        <td>
+          <a asp-action="Edit" asp-route-id="@item.PersonId" class="button black container margin">Edit</a> |
+          <a asp-action="Delete" asp-route-id="@item.PersonId" class="button black container margin">Delete</a>
+        </td>
+      </tr>
+    }
+  </tbody>
+</table>

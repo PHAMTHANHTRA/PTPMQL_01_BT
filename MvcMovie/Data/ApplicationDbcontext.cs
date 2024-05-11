@@ -7,8 +7,7 @@ namespace MvcMovie.Data
      {
         public ApplicationDbcontext(DbContextOptions<ApplicationDbcontext> options) : base(options)
         {}
+        //khai bao anh xa vao database
         public DbSet<Person> Person { get; set;}
      }
      }
-
-        
