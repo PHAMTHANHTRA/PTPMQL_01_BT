@@ -1,4 +1,4 @@
-@model IEnumerable<DemoMVC.Models.Person>
+@model IEnumerable<MvcMovie.Models.Person>
 
 @{
   ViewData["Title"] = "Index";
@@ -25,9 +25,7 @@
       <th>
         @Html.DisplayNameFor(model => model.Address)
       </th>
-      <th>
-        @Html.DisplayNameFor(model=>model.Age)
-      </th>
+
     </tr>
   </thead>
   <tbody class="border">
@@ -39,12 +37,10 @@
         <td>
           @Html.DisplayFor(modleItem => item.Address)
         </td>
+    
         <td>
-          @Html.DisplayFor(modleItem => item.Age)
-        </td>
-        <td>
-          <a asp-action="Edit" asp-route-id="@item.PersonId" class="button black container margin">Edit</a> |
-          <a asp-action="Delete" asp-route-id="@item.PersonId" class="button black container margin">Delete</a>
+          <a asp-action="Edit" asp-route-id="@item.PersonID" class="button black container margin">Edit</a> |
+          <a asp-action="Delete" asp-route-id="@item.PersonID" class="button black container margin">Delete</a>
         </td>
       </tr>
     }

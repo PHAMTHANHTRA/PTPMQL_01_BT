@@ -1,5 +1,6 @@
-using FirstMVC.Models;
+using MvcMovie.Models;
 using Microsoft.EntityFrameworkCore;
+using MvcMovie.Models;
 
 namespace MvcMovie.Data
 {
