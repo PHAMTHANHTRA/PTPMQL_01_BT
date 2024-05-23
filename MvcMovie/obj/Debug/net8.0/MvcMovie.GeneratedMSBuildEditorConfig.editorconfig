@@ -26,8 +26,80 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Dell\Downloads\PTPMQL_01\MvcMovie
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/BT/Giaiptb2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQlRcR2lhaXB0YjIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/BT/tong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQlRcdG9uZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Customer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Customer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Customer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Customer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/DaiLy/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpTHlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/DaiLy/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpTHlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/DaiLy/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpTHlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/DaiLy/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpTHlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/DaiLy/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpTHlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/HelloWorld/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/HeThongPhanPhoi/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVUaG9uZ1BoYW5QaG9pXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/HeThongPhanPhoi/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVUaG9uZ1BoYW5QaG9pXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/HeThongPhanPhoi/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVUaG9uZ1BoYW5QaG9pXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/HeThongPhanPhoi/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVUaG9uZ1BoYW5QaG9pXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/HeThongPhanPhoi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVUaG9uZ1BoYW5QaG9pXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Home/Index.cshtml]
@@ -36,18 +108,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Person/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Person/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Person/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Person/Index.cshtml]
@@ -60,6 +120,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Student/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Student/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Student/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Student/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dell/Downloads/PTPMQL_01/MvcMovie/Views/_ViewImports.cshtml]
