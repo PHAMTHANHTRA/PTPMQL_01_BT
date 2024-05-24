@@ -1,0 +1,54 @@
+@model IEnumerable<MvcMovie.Models.HeThongPhanPhoi>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: hsl(216, 52%, 53%);
+  color: white;
+}
+</style>
+
+<h2 class="w3-center w3-text" style=" font-family: Times New Roman; font-size:50px "> Danh sách Hệ Thống Phân Phối</h2>
+<p>
+    <a asp-action="Create">Tạo dữ liệu mới</a>
+</p>
+<table id="customers">
+  <tr>
+    <th> Tên Hệ Thống Phân Phối </th>
+    <th> Action </th>
+  <tr>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenHTPP)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MaHTPP">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.MaHTPP">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaHTPP">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

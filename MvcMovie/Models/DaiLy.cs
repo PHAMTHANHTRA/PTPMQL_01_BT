@@ -1,6 +1,5 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-using MvcMovie.Models;
 namespace MvcMovie.Models
 {
 [Table("DaiLy")]

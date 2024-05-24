@@ -1,19 +1,21 @@
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using System.Text.Encodings.Web;
+using MvcMovie.Models;
 
-namespace MvcMovie.Controllers
-{
-    public class HelloWorldController : Controller
-    {
-        //GET :/HelloWord/
-        public IActionResult Index()
+namespace MvcMovie.Controllers;
+
+public class HelloWorldController : Controller
+{   
+   public string Index()
         {
-            return View();
-        }
-        //GET :/HelloWorld/Welcome/
+            return "This is my default action...";
+        } 
+        // GET: /HelloWorld/Welcome/ 
+
         public string Welcome()
         {
             return "This is the Welcome action method...";
         }
-    }
-}
+
+
+}  

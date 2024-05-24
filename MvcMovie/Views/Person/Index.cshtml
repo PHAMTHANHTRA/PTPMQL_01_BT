@@ -1,48 +1,7 @@
-@model IEnumerable<MvcMovie.Models.Person>
-
-@{
-  ViewData["Title"] = "Index";
-  Layout = "~/Views/Shared/_Layout.cshtml";
-
-}
-<h1 class="container teal">Index</h1>
-
-<p>
-  <a asp-action="Create" class="button black container margin">Create New</a>
-</p>
-<hr>
-<form action="Index">
-  <input type="text" name="timKiem">
-  <input type="submit" value="Search">
+<form asp-action="Index">
+    <label>Nhap thong tin</label>
+    <input type="Text" name="FullName" placeholder="Enter fullname"/>
+    <input type="Text" name="PersonID" placeholder="Enter ID"/>
+    <input type="submit" value="Save"/>
 </form>
-<hr>
-<table class="table">
-  <thead class="border">
-    <tr>
-      <th>
-        @Html.DisplayNameFor(model => model.FullName)
-      </th>
-      <th>
-        @Html.DisplayNameFor(model => model.Address)
-      </th>
-
-    </tr>
-  </thead>
-  <tbody class="border">
-    @foreach (var item in Model) {
-      <tr>
-        <td>
-          @Html.DisplayFor(modelItem => item.FullName)
-        </td>
-        <td>
-          @Html.DisplayFor(modleItem => item.Address)
-        </td>
-    
-        <td>
-          <a asp-action="Edit" asp-route-id="@item.PersonID" class="button black container margin">Edit</a> |
-          <a asp-action="Delete" asp-route-id="@item.PersonID" class="button black container margin">Delete</a>
-        </td>
-      </tr>
-    }
-  </tbody>
-</table>
+<h1>@ViewBag.Nhandulieu</h1>

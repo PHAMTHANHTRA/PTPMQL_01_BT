@@ -1,0 +1,75 @@
+@model IEnumerable<MvcMovie.Models.DaiLy>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: hsl(0, 60%, 50%);
+  color: white;
+}
+</style>
+
+<h2 class="w3-center w3-text" style=" font-family: Times New Roman; font-size:50px "> Danh sách Đại Lý</h2>
+<p>
+    <a asp-action="Create">Tạo dữ liệu mới</a>
+    <a class = "btn btn-success" asp-action="Dowload">Dowload</a>
+</p>
+
+<table id="customers">
+  <tr>
+    <th> Tên Đại lý </th>
+    <th> Địa chỉ </th>
+    <th> Người đại diện </th>
+    <th> Số điện thoại </th>
+    <th> Mã HTPP </th>
+    <th> Action </th>
+  </tr> 
+  <tr>           
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.TenDaiLy)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.DiaChi)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.NguoiDaiDien)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.DienThoai)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.MaHTPP)
+    </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MaDaiLy">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.MaDaiLy">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaDaiLy">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

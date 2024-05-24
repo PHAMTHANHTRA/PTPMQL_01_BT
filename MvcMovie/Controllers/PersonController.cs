@@ -2,18 +2,20 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using MvcMovie.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MvcMovie.Data;
 using MvcMovie.Models;
+using MvcMovie.Models.Process;
 
 namespace MvcMovie.Controllers
 {
     public class PersonController : Controller
     {
         private readonly ApplicationDbcontext _context;
+
+        private ExcelProcess _excelProcess = new ExcelProcess();
 
         public PersonController(ApplicationDbcontext context)
         {
