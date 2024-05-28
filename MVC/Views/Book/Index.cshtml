@@ -1,0 +1,90 @@
+@using X.PagedList;
+@using X.PagedList.Mvc.Core
+@model IPagedList<MVC.Models.Book>
+
+@{
+    ViewBag.Title = "Index";
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Index", "Book", FormMethod.Get, new { id = "form1" }))
+
+{
+    <div class="w3-container">
+        <p>
+            <a asp-action="ExportBooksToExcel" class="btn btn-success">Xuất Excel</a>
+        </p>
+        <div class="w3-row">
+            <b>Danh sách sinh viên mượn sách</b>
+            <a asp-action="Create" class="w3-btn w3-border w3-border-blue w3-round w3-right w3-tiny w3-horver-blue">Thêm
+                mới</a>
+            <form method="post" enctype="multipart/form-data" action="/Book/UploadExcel">
+                <div class="form-group">
+                    <label for="excelFile">Upload Excel File:</label>
+                    <input type="file" name="excelFile" class="form-control" />
+                </div>
+                <button type="submit" class="btn btn-primary">Upload</button>
+            </form>
+
+        </div>
+        <hr />
+        <table class="w3-table-all w3-card-4 w3-centered">
+            <thead>
+                <tr class="w3-blue">
+                    <th class="w3-col l2">Mã sách</th>
+                    <th class="w3-col l4">Tên sách</th>
+                    <th class="w3-col l2">Số lượng sách</th>
+                    <th class="w3-col l2">Năm xuất bản</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null)
+
+                {
+
+                    foreach (var item in Model)
+
+                    {
+                        <tr>
+                            <td class="w3-col l2">@item.IdBook</td>
+                            <td class="w3-col l4">@item.NameBook</td>
+                            <td class="w3-col l2">@item.Number</td>
+                            <td class="w3-col l2">@item.Year</td>
+                            <td class="w3-col l2">
+                                <a asp-action="Edit" asp-route-id="@item.IdBook"
+                                    class="w3-button w3-green w3-round-large w3-small">SỬA</a>
+                                <a asp-action="Delete" asp-route-id="@item.IdBook"
+                                    class="w3-button w3-red w3-round-large w3-small">XOÁ</a>
+                                <a asp-action="Details" asp-route-id="@item.IdBook"
+                                    class="w3-button w3-pink w3-round-large w3-small">XEM CHI TIẾT</a>
+                            </td>
+                        </tr>
+                    }
+
+                }
+            </tbody>
+        </table>
+        <nav aria-label="Page navigation">
+            @Html.PagedListPager(Model, page => Url.Action("Index", new { page, pageSize = ViewBag.PageSize }), new
+                     PagedListRenderOptions
+            {
+                LiElementClasses = new[] { "page-item" },
+                PageClasses = new[] { "page-link" }
+            })
+        </nav>
+        <div class="form-inline mb-3">
+            <label for="pageSize" class="mr-2">Số lượng mỗi trang:</label>
+            @Html.DropDownList("pageSize", (List<SelectListItem>)ViewBag.PageSize, new { @class = "form-control" })
+        </div>  
+    </div>
+}
+
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#pageSize").change(function () {
+            $("#form1").submit();
+        });
+    });
+</script>
